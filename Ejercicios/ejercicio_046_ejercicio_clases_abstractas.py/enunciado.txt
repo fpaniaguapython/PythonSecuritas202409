@@ -1,14 +1,13 @@
 - Creamos la clase Parametro con los atributos nombre y valor
 - Creamos la clase abstracta Tarea
-Tarea tiene un constructor que recibe el nombre de la Tarea y un atributo parametros (lista de Parametro)
-Tarea tiene un método de instancia mostrar_parametros que muestra los parametros de la lista
-Tarea tiene un método abstractor que se llama ejecutar 
+Tarea tiene un constructor que recibe el nombre de la Tarea y un atributo parametros (tupla de Parametro)
+Tarea tiene un método de instancia mostrar_parametros que muestra los parametros de la tupla
+Tarea tiene un método abstrato que se llama ejecutar 
 - Creamos dos clases Tarea concretas 
 
 
 - En el App.py (if __name__=='__main__')
     - Crear una tupla de instancias de Tarea e intercalado instancias de otras cosas (string, números, booleanos)
+    - Mostrar todos los parámetros de las tareas
     - Crear un función que reciba la tupla de tareas y de 'grillos' y que ejecute las tareas y detecte los 'grillos' y avise
 
-
-10:35
