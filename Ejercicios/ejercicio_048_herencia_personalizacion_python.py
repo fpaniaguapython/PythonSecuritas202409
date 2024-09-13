@@ -13,6 +13,10 @@ class MovieList(list): #list es una clase
         for item in items:
             MovieList.check_type(item)
         super().extend(items)
+
+    def __setitem__(self, pos, item):
+        MovieList.check_type(item)
+        super().__setitem__(pos, item)
    
 #Movie  
 class Movie:
@@ -31,12 +35,16 @@ lista_peliculas = MovieList() #Creación de una lista a través de la función l
 
 lista_peliculas.append(Movie("It", "Fred"))
 lista_peliculas.append(Movie("El Resplandor", "Kubrick"))
-#lista_peliculas.append("Grillo") #Se detecta como que NO es del tipo Movie
+#lista_peliculas.append("Grillo") #Se detecta que NO es del tipo Movie
 print(lista_peliculas)
 
 lista_peliculas_retro = list()
 lista_peliculas_retro.append(Movie("Lo que el viento se llevó", "Director 1"))
 lista_peliculas_retro.append(Movie("Casablanca", "Director 2"))
-#lista_peliculas_retro.append("Sapo") #Se detecta como que NO es del tipo Movie
+#lista_peliculas_retro.append("Sapo") #Se detecta que NO es del tipo Movie
 lista_peliculas.extend(lista_peliculas_retro)
+print(lista_peliculas)
+
+#lista_peliculas[3]="engendro" #Se detecta que no es del tipo Movie
+lista_peliculas[3]=Movie("Rambo","El director de Rambo")
 print(lista_peliculas)
