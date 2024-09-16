@@ -1,8 +1,8 @@
 '''
-En esta solución los métodos son abstractos
-producen un error de tipo TypeError cuando seinstancia el objeto
-de la clase derivada que no implementa todos los métodos
-abstractos de la clase Enemigo
+En esta solución todos los métodos son abstractos
+y producen un error de tipo TypeError cuando se 
+instancia el objetode la clase derivada que no 
+implementa dichos métodos
 '''
 import abc
 
