@@ -1,0 +1,14 @@
+<root response="True">
+    <movie>
+        <title>Indiana Jones and the Temple of Doom</title>
+        <year info="1984"/>
+        <rated>PG</rated> 
+        <runtime mins="118"/>
+    </movie>
+    <movie>
+        <title>Batman</title>
+        <year info="2001"/>
+        <rated>PG</rated> 
+        <runtime mins="80"/>
+    </movie>
+</root>
