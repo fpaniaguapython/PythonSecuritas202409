@@ -18,10 +18,3 @@ Alarma = type('Alarma',(object,),{'duracion':10,'avisar':avisar})
 alarma1 = Alarma()
 alarma1.duracion = 15
 alarma1.avisar()
-
-#Utilizando class, crear la clase Vehiculo que tiene el método arrancar (escribe 'Arrancando...')
-#Utilizando type, crear una clase Automovil que herede de la clase Vehiculo
-#Automovil tiene los atributos marca y modelo
-#Automovil tiene el método mostrar_info (escribe marca y modelo)
-
-#10:20
