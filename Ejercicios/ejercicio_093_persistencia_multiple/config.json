@@ -1,0 +1,7 @@
+{
+  "tipo-persistencia" : "JSON",
+  "comentario_tipo_serializacion" : "SERIALIZACION",
+  "comentario_tipo_json" : "JSON",
+  "comentario_tipo_sqlite" : "SQLITE",
+  "comentario_tipo_sqlite" : "ENGENDRO"
+}

@@ -1,0 +1,13 @@
+Disponemos de una clase Factura: número de factura, nombre de cliente e importe.
+
+Crear una solución que a partir de una configuración almacenada en un fichero
+permita hacer persistente un objeto de la clase Factura en:
+- Fichero serializado con pickle
+- Fichero JSON con el módulo JSON
+- Base de datos con sqlit3
+
+- Crear una 'interfaces' (con clases abstractas) para tener disponibles los métodos de save y read.
+- Un clase (Factory) con un método de clase que nos proporciona la instancia de la interface anterior 
+  correspondiente a la configuración.
+
+  31' -- 10:35
