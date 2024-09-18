@@ -1,0 +1,2 @@
+Este ejercicio implementa un mecanismo de persistencia automática
+en base de datos SQLITE a través de anotaciones.
