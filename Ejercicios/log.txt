@@ -1,0 +1,8 @@
+09:44:47,611 root ERROR Error
+09:44:47,611 root CRITICAL Critical
+09:44:47,611 root ERROR Exception
+NoneType: None
+09:45:32,849 root ERROR Mensaje de Error
+09:45:32,849 root CRITICAL Mensaje de Critical
+09:45:32,849 root ERROR Mensaje de Exception
+NoneType: None

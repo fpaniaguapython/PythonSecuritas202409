@@ -1,0 +1,7 @@
+Nota del instructor:
+Para no subir al control de versiones ficheros innecesarios he eliminado el entorno creado
+durante la sesión.
+
+Para crearlo únicamente hay que ejecutar en un terminal desde la carpeta del proyecto la siguiente orden:
+python -m venv .
+
